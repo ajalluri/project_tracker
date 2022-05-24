@@ -1,0 +1,114 @@
+.container{
+    width: 280px;
+    height: 972px;
+    left: 0;
+    background-color: #1D262D;
+    color: white;
+    font-family: Roboto;
+   
+}
+
+.container img{
+ width: 200px;
+ height: 40px;
+ margin:50px;
+}
+
+/* .flex{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+} */
+
+.fields a{
+    text-decoration: none;
+    color: white;
+   
+   
+}
+.fields a:hover{
+  color: white;
+}
+
+
+
+.fields a h1{
+  font-size: 20px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #28343E;
+  padding: 10px;
+}
+
+
+/* 
+.fields{
+    margin-top: 130px;
+    margin-left: 30px;
+   
+ } */
+/* .fields h1{
+    background: #28343E;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 36px;
+    padding-left: 13px;
+    width: 240px;
+    height: 52px;
+    padding-top: 9px;
+    text-transform: uppercase;
+} */
+/* .fields a{
+  text-decoration: none;
+  color: white;
+} */
+.dropbtn {
+    background: #28343E;
+    color: white;
+    width: 240px;
+    height: 52px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: 30px;
+    
+  } 
+  
+   .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+    margin-left: 30px;
+    
+  }
+  
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+  .dropup-content a:hover {background-color: #ccc}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #2980B9;
+  }
+

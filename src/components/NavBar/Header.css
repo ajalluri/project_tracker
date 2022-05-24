@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: #F7F8FA;
+    margin-top: -5px;
+}
+
+
+.header span h1{
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header  span img{
+    /* text-align: right; */
+    float: right;
+    margin: 9px 19px;
+    
+}

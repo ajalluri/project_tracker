@@ -1,0 +1,70 @@
+.create-project{
+
+margin-top: 40px;
+margin-left: 20px;
+font-size: 34px;
+line-height: 40px;
+font-style: Roboto;
+font-weight: 400;
+
+}
+
+.create-project-grid
+{
+    display: grid;
+    grid-template-columns: 528px 528px;
+    gap:10px;
+    margin-left: 55px;
+    margin-top:30px
+}
+.items label{
+    display: block;
+    
+}
+.items input {
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid #777778;
+    background-color: #F7F8FA;
+    height: 52px;
+    
+    
+}
+
+.items select{
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid #777778;
+    background-color: #F7F8FA;
+    height: 52px;
+    
+    
+}
+.items input:target{
+
+    border: 0px;
+}
+
+
+.buttons
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button {
+    Width :160px;
+Height:44px;
+font-weight:500;
+font-size: 14px;
+line-height: 36px;
+letter-spacing:1.25 px ;
+
+}
+
+.create{
+    background-color: #1D262D;
+    color:white;
+}
