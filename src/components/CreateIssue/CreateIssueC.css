@@ -1,0 +1,82 @@
+.issue-header{
+    margin: 10px 50px;
+    font-weight: 400;
+    font-size:34px;
+    line-height: 40px;
+
+
+}
+
+.issuec-grid
+{
+    display: grid;
+    grid-template-columns: 528px 528px;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap:20px
+}
+
+.issue-items input{
+    width: 528px;
+    border: none;
+    border-bottom: 1px solid #777778;
+
+    background-color:  #F7F8FA;
+    height: 52px;
+  
+}
+
+.issue-items1
+{
+    grid-column: 1/span 2;
+    
+    
+}
+.issue-items1 input{
+    width: 1080px;
+    border: none;
+    border-bottom: 1px solid #777778;
+
+    background-color:  #F7F8FA;
+    height: 52px;
+  
+   
+}
+.issue-items4 input{
+    height: 100px;
+    width: 1080px;
+    border: none;
+    border-bottom: 1px solid #777778;
+
+    background-color:  #F7F8FA;
+  
+}
+.issue-items4
+{
+    grid-column: 1/span 2;
+}
+
+.issue-items label{
+  display: block;
+}
+
+.issue-items select{
+    width :528px;
+    border: none;
+    border-bottom: 1px solid #777778;
+
+    background-color:  #F7F8FA;
+    height: 52px;
+  
+}
+
+
+.React-select{
+    height: 52px;
+    border: none;
+    border-bottom: 1px solid #777778;
+
+    background-color:  #F7F8FA;
+    
+  
+}

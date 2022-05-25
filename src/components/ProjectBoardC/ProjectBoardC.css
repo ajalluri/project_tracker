@@ -1,0 +1,28 @@
+.pb-flex1{
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.grid-4{
+    display: grid;
+    margin-top: 20px;
+    gap: 10px;
+    grid-template-columns: repeat(4,250px);
+}
+
+.pb-todo h1{
+    font-size: 14px;
+}
+
+.pb-dev h1{
+    font-size: 14px;
+}
+
+.pb-test h1{
+    font-size: 14px;
+}
+.pb-comp h1{
+    font-size: 14px;
+}
