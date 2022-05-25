@@ -30,7 +30,7 @@ function IssueCard(props:ICard) {
   return(
   
   <div className='issuecard '>
-      <Link  to= {`/issuedetails/${props.id}`} >
+      <Link  style={{  textDecoration: 'none',color:"black"}} to= {`/issuedetails/${props.id}/${props.projectName}`} >
            
             
 

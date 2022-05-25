@@ -32,7 +32,7 @@ function App() {
           ></Route>
 
           <Route
-            path='/issuedetails/:id'
+            path='/issuedetails/:id1/:id2'
             element={<IssueDetails ></IssueDetails>}
           ></Route>
            </Routes>
