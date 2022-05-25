@@ -1,7 +1,7 @@
 import React from 'react';
 import './IssueCard.css';
 import ICard from '../../interfaces/ICard';
-
+import { Link } from 'react-router-dom';
 function IssueCard(props:ICard) {
 
     let v = {
@@ -30,6 +30,9 @@ function IssueCard(props:ICard) {
   return(
   
   <div className='issuecard '>
+      <Link  to= {`/issuedetails/${props.id}`} >
+           
+            
 
       <div className='issuecard-flex'>
           <div>
@@ -58,7 +61,8 @@ function IssueCard(props:ICard) {
           </button>
           </div>
           </div>
-      
+          
+          </Link>
 
   </div>);
 }
