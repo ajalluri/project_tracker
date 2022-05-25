@@ -1,4 +1,4 @@
-.grid{
+.project-board{
     display: grid;
     grid-template-columns: 350px 1180px;
 }
