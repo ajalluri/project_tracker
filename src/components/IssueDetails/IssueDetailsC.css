@@ -1,0 +1,52 @@
+.margin{
+    margin-left: 30px;
+}
+
+.issueDetails-grid{
+    display: grid;
+    grid-template-columns: 712px 400px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.issue-details-heading{
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+
+.issue-details-heading span{
+    color: orange;
+}
+
+.project-name-summ{
+    /* margin-left: 70px; */
+    width: 1180px;
+    height: 124px;
+    background: #F7F8FA;
+    padding: 15px;
+
+}
+.project-name-summ h1{
+    color: orange;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.desc{
+    padding-bottom: 15px;
+}
+.desc p{
+    font-size: 16px;
+    color: #85929C;
+
+}
+
+.details{
+    width: 529px;
+    height: 156px;
+}
+
+.details-grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}

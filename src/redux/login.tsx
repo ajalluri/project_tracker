@@ -19,8 +19,8 @@ export const counterSlice = createSlice({
     loggedin: (state,action: PayloadAction<{username:string,userid:string}>) => {
      
       state.loggedIn = 1;
-      state.username = action.payload.username,
-      state.userid = action.payload.userid
+      state.username = action.payload.username;
+      state.userid = action.payload.userid;
       localStorage.setItem("username",action.payload.username);
       localStorage.setItem("userid",action.payload.userid);
       localStorage.setItem("loggedin","1");
