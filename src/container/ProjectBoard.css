@@ -1,4 +1,5 @@
 .project-board{
     display: grid;
-    grid-template-columns: 350px 1180px;
+    overflow: hidden;
+    grid-template-columns: 350px 1160px;
 }

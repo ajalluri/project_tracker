@@ -1,7 +1,7 @@
 import React from 'react';
 import "./SideNavBar.css"
 import Icon from  "../../assets/Icon.svg"
-import Language from "../../assets/Vector.svg"
+// import Language from "../../assets/Vector.svg"
 interface Iprops {
     activity: string;
   }
