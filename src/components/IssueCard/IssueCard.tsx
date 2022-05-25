@@ -9,19 +9,23 @@ function IssueCard(props:ICard) {
         2:"MEDIUM",
         3:"HIGH"
     }
+    let color:string = "";
 
     let p :string  = "";
     if(props.priority===1)
     {
         p = "Low"
+        color = "green"
     }
     if(props.priority===2)
     {
         p = "Medium"
+        color = "orange"
     }
     if(props.priority===3)
     {
         p = "High"
+        color = "red"
     }
   return(
   
@@ -49,7 +53,7 @@ function IssueCard(props:ICard) {
           </div>
           <div className='priority'>
               priority
-          <button className='issucard-priority'>
+          <button className='issucard-priority' style={{backgroundColor:color}}>
               {p}
           </button>
           </div>
