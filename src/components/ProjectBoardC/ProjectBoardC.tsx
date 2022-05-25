@@ -182,15 +182,16 @@ function ProjectBoardC(){
       }
       else{
     
-    return (<div>
+    return (<div className="project-board-container" >
+      
    
    <div className='pb-flex1'>
        <h1>Project Details</h1>
        <button>VIEW INSIGHTS</button>
    </div>
 
-                    <div>
-                  <div className='issue-items'>
+                    <div className="pb-grid">
+                  <div className='pb-items'>
                     <label htmlFor="">Project Name</label>
                     
                     <select onChange={(event)=>{
@@ -206,13 +207,14 @@ function ProjectBoardC(){
                     </select>
 
                     </div>
-                    <div className='issue-items'>
+                    <div className='pb-items'>
                     <label htmlFor="">Project Owner</label>
                     
                     <input value = {projectOwner} type="text" readOnly={true}/>
 
                     </div>
-                    <div className='issue-items'>
+                    <div className="filter-grid">
+                    <div className='filter-items'>
                     <label htmlFor="">Filter Assignee</label>
                     <select value = {Assignee} onChange ={(event)=>{setStateAssignee(event.target.value)
                     setStateAssigneename(assignees[event.target.selectedIndex])
@@ -224,7 +226,8 @@ function ProjectBoardC(){
                     </select>
 
                     </div>
-                    <div className='issue-items'>
+                    
+                    <div className='pb-items '>
                     <label htmlFor="">Filter Priority</label>
                     <ReactSelect className='React-select'
                      options={[
@@ -251,6 +254,7 @@ function ProjectBoardC(){
                   
                      
                 />
+                </div>
                 </div>
                      </div>
 

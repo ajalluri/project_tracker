@@ -1,9 +1,52 @@
-.grid{
+.landing-page-grid{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 653px 787px;
+}
+
+.side-nav{
+    background-color: #1D262D;
+    height: 980px;
+}
+
+.side-nav img{
+    margin: 120px;
+    width: 350px;
+    height: 56px;
 }
 
 .flex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
+    margin-left:  330px;
+}
+
+.login-field label{
+   display: block;
+   padding: 5px;
+}
+
+.login-field input{
+    width: 528px;
+    height: 52px;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid #777778;
+    background-color: #F7F8FA;
+}
+
+
+
+.password-forgot p{
+    color: #FE7912;
+    margin-top: 5px;
+}
+
+form button{
+    margin-top: 30px;
+    width: 528px;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
 }
